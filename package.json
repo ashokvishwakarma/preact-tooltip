@@ -1,0 +1,20 @@
+{
+  "name": "preact-tooltip",
+  "version": "1.0.0",
+  "description": "A tooltip component for preact",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashokvishwakarma/preact-tooltip.git"
+  },
+  "homepage": "https://github.com/ashokvishwakarma/preact-tooltip.git#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashok Vishwakarma <akvlko@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "preact": "^8.3.1"
+  }
+}
