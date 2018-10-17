@@ -1,6 +1,6 @@
 {
-  "name": "preact-tooltip",
-  "version": "1.0.0",
+  "name": "tooltip-preact",
+  "version": "1.0.1",
   "description": "A tooltip component for preact",
   "repository": {
     "type": "git",

@@ -5,13 +5,13 @@ A tool-tip compoment for `preact`.
 ## Install
 
 ```
-npm install --save preact-tooltip
+npm install --save tooltip-preact
 ```
 
 ## Uses
 
 ```
-import Tooltip from 'preact-tooltip';
+import Tooltip from 'tooltip-preact';
 
 render() {
   return (
