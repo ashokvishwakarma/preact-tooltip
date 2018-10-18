@@ -6,18 +6,7 @@ import './style.scss';
 export default class Tooltip extends Component{
 
   state = {
-    className: null,
-    label: null,
     active: false
-  }
-
-  componentWillReceiveProps(props) {
-    if(props) {
-      this.setState({
-        className: props.className,
-        label: props.label
-      });
-    }
   }
 
   componentDidMount(){
@@ -39,12 +28,12 @@ export default class Tooltip extends Component{
 
   render(){
     const cls = {tooltip: true, active: this.state.active};
-    if(this.state.className) {
-      cls[this.state.className] = true;
+    if(this.props.className) {
+      cls[this.props.className] = true;
     }
     return (
       <div className={classy(cls)}>
-        <div className="in">{this.state.label}</div>
+        <div className="in">{this.props.label}</div>
       </div>
     )
   }

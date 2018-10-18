@@ -1,6 +1,6 @@
 # Tooltip for Preact
 
-A tool-tip compoment for `preact`.
+A tool-tip component for `preact`.
 
 ## Install
 
@@ -17,7 +17,7 @@ render() {
   return (
     <div>
       Some text
-      <Tooltip label="Tooltip text">
+      <Tooltip label="Tooltip text" className="custom-class">
     </div>
   )
 }
@@ -29,6 +29,6 @@ render() {
 * className - additional class name
 
 ## Author
-Ashok Vishwaakrma
+Ashok Vishwakarma
 
 [Linkedin](https://www.linkedin.com/in/ashokvishwakarmaa/) &bull; [Twitter](https://twitter.com/_avishwakarma)
